@@ -16,8 +16,16 @@ body {
   align-items: center;
 }
 
+.page-hero {
+  margin-top: -1px;
+}
+
 .card ul {
   padding-left: 1.1rem;
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
 }
 
 footer a {
@@ -27,4 +35,19 @@ footer a {
 footer a:hover,
 footer a:focus {
   text-decoration: underline;
+}
+
+.error-page {
+  min-height: 100vh;
+  padding-top: 0;
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.error-code {
+  line-height: 1;
+  font-size: clamp(4rem, 16vw, 9rem);
+}
+
+.error-text {
+  max-width: 640px;
 }
